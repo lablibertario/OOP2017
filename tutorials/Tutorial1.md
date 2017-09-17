@@ -166,7 +166,7 @@
 
 ## Part 5 - Built-In Variables
 
-1.	Run the program [ellipse_tracking](https://github.com/barcaxi/OOP2017/blob/master/code/notes/ellipseTracking/ellipseTracking.zip).
+1.	Run the program [ellipse_tracking](https://github.com/barcaxi/OOP2017/blob/master/code/notes/ellipseTracking/ellipseTracking.zip?raw=true).
 
 2.	Modify the code so the radius of the ellipse uses the current mouse y location.
 	Restore the ellipses width and height to 50 when done.
@@ -184,7 +184,7 @@
 
 ## Part 6 - Processing Events
 
-1.	Run the program [ellipse_mouse](https://github.com/barcaxi/OOP2017/blob/master/code/notes/ellipseMouse/ellipseMouse.zip)
+1.	Run the program [ellipse_mouse](https://github.com/barcaxi/OOP2017/blob/master/code/notes/ellipseMouse/ellipseMouse.zip?raw=true)
 
 	Modify the code in ``keyPressed()`` so when the key 'r' is pressed the colour **r**ed will be used next time an ellipse is drawn.  Hint: Use the [``fill()``](https://processing.org/reference/fill_.html "fill()") method.
 
@@ -195,7 +195,7 @@
 
 **Random**
 
-1.	Modify the program [ellipse_random](https://github.com/barcaxi/OOP2017/blob/master/code/notes/ellipseRandom/ellipseRandom.zip) so the colours of the ellipses have random RGB values.
+1.	Modify the program [ellipse_random](https://github.com/barcaxi/OOP2017/blob/master/code/notes/ellipseRandom/ellipseRandom.zip?raw=true) so the colours of the ellipses have random RGB values.
 
 2.	Modify the program so the ellipses are drawn at the mouse x and y location.  You should achieve the effect shown below:
 
@@ -216,7 +216,7 @@
 
 **Images**
 
-1.	Run the program [image_earthrise](https://github.com/barcaxi/OOP2017/blob/master/code/notes/imageEarthRise/imageEarthRise.zip).
+1.	Run the program [image_earthrise](https://github.com/barcaxi/OOP2017/blob/master/code/notes/imageEarthRise/imageEarthRise.zipt?raw=true).
 
 2.	Modify the code so your creature is drawn on the image at the current mouse position:
 
