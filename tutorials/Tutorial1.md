@@ -145,7 +145,7 @@
 
 ## Part 4 - Program Flow
 
-1.	Run the program [ellipse_moving](https://github.com/barcaxi/oop/blob/master/code/notes/ellipse_moving/ellipse_moving.zip?raw=true).
+1.	Run the program [ellipse_moving](https://github.com/barcaxi/oop2017/blob/master/code/notes/ellipse_moving/ellipse_moving.zip?raw=true).
 
 2.	Modify the code so the ellipse moves twice as fast across the screen.
 
