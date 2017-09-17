@@ -216,7 +216,7 @@
 
 **Images**
 
-1.	Run the program [image_earthrise](https://github.com/barcaxi/OOP2017/blob/master/code/notes/imageEarthRise/imageEarthRise.zipt?raw=true).
+1.	Run the program [image_earthrise](https://github.com/barcaxi/OOP2017/blob/master/code/notes/imageEarthRise/imageEarthRise.zip?raw=true).
 
 2.	Modify the code so your creature is drawn on the image at the current mouse position:
 
