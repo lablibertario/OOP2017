@@ -1,17 +1,15 @@
-  
-  size(200, 200);
-  
-  fill(255, 0, 0);            // red 
-  rect(10, 10, 180, 180);  
-  fill(0, 255, 0);            // green
-  ellipse(100, 100, 180, 180);
 
-  stroke(255, 255, 0);   // yellow line
-  line(10, 10, 190, 190); 
+size(200, 200);
 
-  stroke(255, 0, 255);   // purple points
-  for (int i=10; i<190; i=i+5)
-    point(i, 100);
+fill(___, ___, ___);          // red 
+rect(10, 10, 180, 180);  
 
-  fill(0,255,0);
-  triangle(0,200,100,0,200,200);
+fill(___, ___, ___);          // green
+ellipse(100, 100, 180, 180);
+
+stroke(___, ___, ___);        // yellow line
+line(10, 10, 190, 190); 
+
+stroke(___, ___, ___);        // purple points
+for (int i=10; i<190; i=i+5)
+  point(i, 100);
