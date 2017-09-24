@@ -2,7 +2,7 @@
 
 ## Part 0 - Classes & Objects
 
-1.	Run the program [tut02_00](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_00/tut02_00.zip?raw=true).
+1.	Run the program [tut02_00](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_00/tut02_00.zip?raw=true).
 	It shows how a simple class is declared, created and used.  
 
 	Make sure you have both program files in the same folder.
@@ -18,7 +18,7 @@
 
 ## Part 1 - Arrays
 
-1.	Run the program [tut02_01](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_01/tut02_01.zip?raw=true).
+1.	Run the program [tut02_01](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_01/tut02_01.zip?raw=true).
 
 2.	Change or add some more values in the array, and run again.
 
@@ -30,12 +30,12 @@
 
 	Hint: use a separate variable which maintains the value of the highest number encountered thus far (and then check each array element and compare against this value).
 
-4.	Open the program [tut02_02](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_02/tut02_02.zip?raw=true).
+4.	Open the program [tut02_02](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_02/tut02_02.zip?raw=true).
 	
 	In ``setup()`` add a value one at a time to the ``data`` array.  Then run to see a simple bar chart.
 
 
-5.	Open the program [tut02_03](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_03/tut02_03.zip?raw=true).
+5.	Open the program [tut02_03](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_03/tut02_03.zip?raw=true).
 
 	It has an array of grades.
 	
@@ -58,18 +58,18 @@
 These programs are the same as Part 1 but this time use an ``ArrayList`` for storage.
 
 
-1.	Run the program [tut02_04](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_04/tut02_04.zip?raw=true).
+1.	Run the program [tut02_04](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_04/tut02_04.zip?raw=true).
 
 2.	Change some values and add another value in the arraylist, and run again.
 
 3.	Modify the code in ``setup()`` to first find the largest number in the arraylist and then draw all ellipses using this number.
 
-4.	Open the program [tut02_05](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_05/tut02_05.zip?raw=true).
+4.	Open the program [tut02_05](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_05/tut02_05.zip?raw=true).
 	
 	In ``setup()`` create and add 5 values to the ``data`` arraylist.  Then run to see a simple bar chart.
 
 
-5.	Open the program [tut02_06](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_06/tut02_06.zip?raw=true).
+5.	Open the program [tut02_06](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_06/tut02_06.zip?raw=true).
 
 	It has an array of grades.
 	
@@ -81,10 +81,10 @@ These programs are the same as Part 1 but this time use an ``ArrayList`` for sto
 
 ## Part 3 - ArrayList of Spot objects
 
-1.	Run the program [tut02_07](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_07/tut02_07.zip?raw=true).
+1.	Run the program [tut02_07](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_07/tut02_07.zip?raw=true).
 	Make sure that you understand what the code is doing.
 
-2.	Run the program [tut02_08](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_08/tut02_08.zip?raw=true).
+2.	Run the program [tut02_08](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_08/tut02_08.zip?raw=true).
 	Make sure that you understand what the code is doing.
 
 3.	Modify the program ``tut02_08`` so a fourth *spot* is created at an appropriate position behind the third spot.
@@ -201,7 +201,7 @@ Goto next part.
 This code will generate 5 random card numbers, store them in an array and display them.
 Make sure you have the subfolder ``images`` in the same folder as your program.
 
-1.	Open the program [tut02_11](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_11/tut02_11.zip?raw=true).
+1.	Open the program [tut02_11](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_11/tut02_11.zip?raw=true).
 	Make sure you also copy the ``images`` folder into this program folder.  Run the program.
 	You should see 5 random cards printed in the window.
 
@@ -216,7 +216,7 @@ Make sure you have the subfolder ``images`` in the same folder as your program.
 Below is a more object-oriented way to tackle the idea of handling cards. 
 We have a class ``Cards`` to store and handle the cards, and we can then create an object of that class wherever we wish.
 
-4.	Open the program [tut02_12](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut02_12/tut02_12.zip?raw=true).
+4.	Open the program [tut02_12](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/tut02_12/tut02_12.zip?raw=true).
 	Again, make sure you also copy the ``images`` folder into this program folder.  Run the program.
 	You should see 5 random cards printed in the window.
 
@@ -230,7 +230,7 @@ We have a class ``Cards`` to store and handle the cards, and we can then create 
 
 ## Part 7 - Additional ArrayList Exercises
 
-Only do this part **after** you have completed [Tutorial 3](https://github.com/barcaxi/oop/blob/master/tutorials/Tutorial3.md).
+Only do this part **after** you have completed [Tutorial 3](https://github.com/barcaxi/oop2017/blob/master/tutorials/Tutorial3.md).
 
 1.	Open and run the program ``tut02_08`` again.
 	A new spot should appear where the mouse is pressed and move across the window.
