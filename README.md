@@ -5,6 +5,7 @@ A repository for module *Object Orient Programming* Semester 3.
 
 ## Notes
 - [Processing Primer](./notes/ProcessingPrimer.md)
+- [Arrays & Arraylists](./notes/ArraysAndArraylists.md)
 
 ## Lectures
 - Processing
@@ -12,6 +13,7 @@ A repository for module *Object Orient Programming* Semester 3.
 
 ## Tutorials
 - [Tutorial 1](./tutorials/Tutorial1.md)
+- [Tutorial 2](./tutorials/Tutorial2.md)
 
 ## Assessment
 
