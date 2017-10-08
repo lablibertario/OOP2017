@@ -2,7 +2,7 @@
 
 ## Part 1 - Book "has-a" Author
 
-1.	Run the program [tut04_01](../../code/tutorials/tut04_01/tut04_01.zip?raw=true) and observe it's output.
+1.	Run the program [tut04_01](../code/tutorials/tut04_01/tut04_01.zip?raw=true) and observe it's output.
 	
 	Make sure you include the ``images`` folder in your project folder.
 
