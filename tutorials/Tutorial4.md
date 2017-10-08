@@ -199,6 +199,8 @@ Try:
 
 Open the test program ``TestPlanetMoons`` from the ``part2`` folder.
 
+Add your solutions for the ``Planet`` and  ``Moon`` classes written earlier.
+
 ![alt text](../images/PlanetHasAMoon2.png "Planet has 0..many Moons")
 
 In the previous part the assumption was that a planet has one and only one moon. 
@@ -210,7 +212,6 @@ Modify the ``Planet`` class to support more than one moon by changing the instan
 
 ```
 
-Reuse the ``Moon`` class written earlier.
 
 Notes:
 -	the constructor takes an array of ``Moon`` (i.e. ``Moon[]``), instead of a ``Moon`` instance.
@@ -287,9 +288,35 @@ If your code is completed correctly, you should see a planet with two moons orbi
 
 ### Moon and Planet - Arraylist of Objects
 
-Planet will have an arraylist of moons, methods like ``addMoon()``, etc.
+Open the test program ``TestPlanetMoonsArrayList`` from the ``part3`` folder.
+
+Add your solutions for the ``Planet`` and  ``Moon`` classes written earlier.
+
+You will modify ``Planet`` to have an arraylist of moons replacing the array solution done earlier.  Also a new method called ``addMoon()`` will be added.
+
+To do:
+
+-	Add your solutions to the ``Planet`` and ``Moon`` classes to the project
+-	Update ``Planet`` to use an arraylist not an array:
+
+	```java
+	//private Moon[] moons;
+  	private ArrayList<Moon> moons;
+  	```
+
+-	Add a new method that allows you to add a moon object to the arraylist:
+
+	```java
+	public void addMoon(Moon moon)
+	{
+		moons.add(moon);
+	}
+
+  	```
+
+-	Make the appropriate changes to other methods to use the arraylist
 
 
-
+If your code is completed correctly, you should see a planet with two moons orbit the sun in the middle of the window.
 
 
