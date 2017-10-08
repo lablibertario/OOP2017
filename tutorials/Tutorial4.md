@@ -154,7 +154,7 @@ It contains:
 -	a constructor:
 
 	```java
-		public Planet(String name, float radius, float distance, float speed, Moon moon) {...}
+	public Planet(String name, float radius, float distance, float speed, Moon moon) {...}
 
 	```
 
@@ -192,6 +192,100 @@ Try:
 	public float getMoonRadius() { ... }
 
 	```
+
+
+
+### Moon and Planet - Array of Objects
+
+Open the test program ``TestPlanetMoons`` from the ``part2`` folder.
+
+![alt text](../images/PlanetHasAMoon2.png "Planet has 0..many Moons")
+
+In the previous part the assumption was that a planet has one and only one moon. 
+In reality, a planet can have none, one or more moons. 
+Modify the ``Planet`` class to support more than one moon by changing the instance variable ``moon`` to a ``moons`` array:
+
+```java
+-moons: Moons[]
+
+```
+
+Reuse the ``Moon`` class written earlier.
+
+Notes:
+-	the constructor takes an array of ``Moon`` (i.e. ``Moon[]``), instead of a ``Moon`` instance.
+
+-	the ``toString()`` method shall return "Planet: *planet name* (r=*radius*;d=*distance*) has *n* moon(s);".  Where *n* is the number of moons.  e.g. e.g. "Planet: earth (r=100;d=100) has 1 moon(s);"
+
+-	a new method ``printMoons()`` to print the names of all the moons.
+
+Open the test program ``TestPlanetMoons``.
+
+You are required to:
+1.	Modify the ``Planet`` class code for the array of moons.
+
+2.	Modify the ``getMoons()`` method to return the ``moons`` array
+
+3.	Modify ``getMoonName()`` and ``getMoonRadius()`` so they are given an array index value of the moon whose name or radius is required.
+
+4.	Make sure that you test the ``getMoons()`` method.
+
+5.	The method ``printMoons()`` should print not return the planet's moons.
+
+6.	Use this updated code for the ``Planet`` method ``display()``:
+
+	```java
+	public void display()
+	{
+		angle=angle+(0.01*speed);
+		pushMatrix();
+		rotate(angle);
+		translate(distance,0);
+		fill(255, 255, 255);
+		ellipse(0, 0, radius*2, radius*2);    
+
+		for(Moon moon: getMoons())
+			moon.display();
+
+		popMatrix();    
+	}
+
+	```
+
+Test your methods. Hints:
+
+```java
+// Declare and allocate an array of Moons
+Moon[] moons = new Moon[2];
+moons[0] = new Moon("Phobos", 5, 50, 2, 28);
+moons[1] = new Moon("Deimos", 2.5, -35, 1.5, 42);
+
+// Declare and allocate a Planet instance
+mars = new Planet("Mars", 20, 300, 1.5, moons);
+
+print("First moon of mars is:");
+println(mars.getMoonName(0));
+
+println(mars); // toString()
+
+print("The moons are: ");
+mars.printMoons();  
+
+```
+
+Should print:
+
+```
+First moon of mars is:Phobos
+Planet: Mars (r=20.0;d=300.0) has 2 moon(s);
+The moons are: Moon: Phobos(orbit=28); Moon: Deimos(orbit=42);
+
+```
+
+If your code is completed correctly, you should see a planet with two moons orbit the sun in the middle of the window.
+
+
+
 
 
 
