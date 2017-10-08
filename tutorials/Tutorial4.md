@@ -309,7 +309,8 @@ To do:
 	```java
 	public void addMoon(Moon moon)
 	{
-	  moons.add(moon);
+	  // add moon to arraylist
+	  ...
 	}
 
   	```
