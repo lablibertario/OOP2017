@@ -12,7 +12,7 @@
 
 	This is known as **composition** in Java.
 
-2.	Open the program [tut04_02](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut04_02/tut04_02.zip?raw=true).
+2.	Open the program [tut04_02](../code/tutorials/tut04_02/tut04_02.zip?raw=true).
 
 3.	Examine the code in the ``setup()`` method.  Then modify the code in the ``Book`` class so that it supports an array of ``Author`` objects.  You only need to modify the code in ``Book`` class.
 
@@ -29,7 +29,7 @@ This program illustrate composition again:
 
 Read on...
 
-Open the program [tut04_03](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut04_03/tut04_03.zip?raw=true) and write the missing code for the ``Lizard`` class. 
+Open the program [tut04_03](../code/tutorials/tut04_03/tut04_03.zip?raw=true) and write the missing code for the ``Lizard`` class. 
 
 ![alt text](../images/Lizard.png "Lizard class")
 
