@@ -285,9 +285,9 @@ The moons are: Moon: Phobos(orbit=28); Moon: Deimos(orbit=42);
 If your code is completed correctly, you should see a planet with two moons orbit the sun in the middle of the window.
 
 
+### Moon and Planet - Arraylist of Objects
 
-
-
+Planet will have an arraylist of moons, methods like ``addMoon()``, etc.
 
 
 
