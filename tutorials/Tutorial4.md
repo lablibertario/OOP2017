@@ -332,7 +332,7 @@ The ``Book`` and ``Author`` classes shown below are an example of composition; a
 
 Write ALL the code to implement these classes.  Use the tester code below in the main project tester code tab:
 
-	```java
+	!java
 	void setup()
 	{
 	  // create authors array with objects for: 
@@ -360,7 +360,6 @@ Write ALL the code to implement these classes.  Use the tester code below in the
 	{
 	}
 
-	```
 
 In the exam question these were the specific questions asked:
 
@@ -369,12 +368,12 @@ In the exam question these were the specific questions asked:
 1.	Provide the code for the printAuthors() method. Assume that all other methods are complete. (5 marks)
 	Should print something like this:
 
-	```text
+	!java
 	[Author:name=Heidi Pitior;email=hpitior@gmail.com;gender=f]
 	[Author:name=Jennifier Egan;email=jegan@yahoo.com;gender=f]
 	[Author:name=Mike Atwell;email=matwell@hotmail.com;gender=m]
 
-	```
+
 
 1.	Show how you would create a ``Book`` object in a tester class.  The book should be: "The Best American Short Stories", price: 9.80, quantity: 3.
 
