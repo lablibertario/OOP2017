@@ -339,3 +339,5 @@ The ``Book`` and ``Author`` classes shown below are an example of composition; a
 1.	Continuing your tester in part c), show how you could then search for the author named Jennifer Egan and, if found, change the associated email address to jennifer.egan@gmail.com.
 
 	Note: Your search must retrieve the author information from the book object. (8 marks)
+
+x
