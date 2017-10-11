@@ -320,7 +320,6 @@ To do:
 
 If your code is completed correctly, you should see a planet with two moons orbit the sun in the middle of the window.
 
-
 ## Part 4 - Exam Alert
 
 ### Question
