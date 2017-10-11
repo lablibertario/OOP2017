@@ -168,7 +168,7 @@ Take note that you have to construct an instance of ``Moon`` before you can cons
 
 ```java
 Moon moon = new Moon("moon", 7.5, 50, 2, 28);
-Planet earth = new Planet("earth", 25, 200, 1, moon);
+earth = new Planet("earth", 25, 200, 1, moon);
 
 // OR using an anonymouse Moon object
 
