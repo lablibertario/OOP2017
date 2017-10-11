@@ -324,21 +324,63 @@ If your code is completed correctly, you should see a planet with two moons orbi
 
 ### Question
 
+Create a new Processing project for this task.
+
 The ``Book`` and ``Author`` classes shown below are an example of composition; a book is composed of a number of authors.
 
 ![alt text](https://github.com/barcaxi/OOP2017/blob/master/images/BookAuthor.png "Book Author")
 
+Write ALL the code to implement these classes.  Use the tester code below in the main project tester code tab:
+
+	```java
+	void setup()
+	{
+	  // create authors array with objects for: 
+	  // "Heidi Pitior", "hpitior@gmail.com", 'f'
+	  // "Jennifier Egan", "jegan@yahoo.com", 'f'
+	  // "Mike Atwell", "matwell@hotmail.com", 'm'
+	  
+	  
+	  // create book object for:
+	  // "The Best American Short Stories", price: 9:80, quantity: 3.
+	  
+
+	  // print authors
+	  aBook.printAuthors();
+	  
+	  // (4) Search for Jennifier Egan here
+
+
+
+	  // print authors again to check Jennifier Egans email has changed
+	  aBook.printAuthors();	  
+	}
+
+	void draw()
+	{
+	}
+
+	```
+
+In the exam question these were the specific questions asked:
+
 1.	Provide the code for each of the Book class constructors. (6 marks)
 
 1.	Provide the code for the printAuthors() method. Assume that all other methods are complete. (5 marks)
+	Should print something like this:
 
-1.	Show how you would create a Book object in a tester class.  The book should be: "The Best American Short Stories", price: 9:80, quantity: 3.
+	```text
+	[Author:name=Heidi Pitior;email=hpitior@gmail.com;gender=f]
+	[Author:name=Jennifier Egan;email=jegan@yahoo.com;gender=f]
+	[Author:name=Mike Atwell;email=matwell@hotmail.com;gender=m]
+
+	```
+
+1.	Show how you would create a ``Book`` object in a tester class.  The book should be: "The Best American Short Stories", price: 9.80, quantity: 3.
 
 	The authors should be: "Heidi Pitior, hpitior@gmail.com, female", "Jennifier Egan, jegan@yahoo.com, female", "Mike Atwell, matwell@hotmail.com, male". (6 marks)
 
-1.	Continuing your tester in part c), show how you could then search for the author named Jennifer Egan and, if found, change the associated email address to jennifer.egan@gmail.com.
+1.	Continuing your tester in part (3), show how you could then search for the author named Jennifer Egan and, if found, change the associated email address to jennifer.egan@gmail.com.
 
 	Note: Your search must retrieve the author information from the book object. (8 marks)
 
-x
-x
