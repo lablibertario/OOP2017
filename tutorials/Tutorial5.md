@@ -16,13 +16,13 @@ A class called ``Circle`` is designed as shown above. It contains:
 
 1.	Open and run the program [tut05_01](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut05_01/tut05_01.zip?raw=true).  Make sure you understand how this is working.
 
-2.	 Modify the class ``Circle`` to include a second constructor for constructing a ``Circle`` instance with arguments for ``x``, ``y`` and ``radius``:
+2.	Modify the class ``Circle`` to include a second constructor for constructing a ``Circle`` instance with arguments for ``x``, ``y`` and ``radius``:
 
 	```java
 	public Circle(int x, int y, int radius) 
 
 	```
-	
+
 	Provide the necessary code to initialise the class variables with the constructor arguments.
 
 3.	Modify the test program ``tut05_01`` to construct an instance of ``Circle`` using the new constructor.
