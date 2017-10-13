@@ -539,7 +539,7 @@ In general, inheritance is for specialisation of a class and composition is for 
 
 To do.
 
-[image](https://raw.githubusercontent.com/barcaxi/oop/master/images/accessPrivatePublic.png)
+[image](../images/accessPrivatePublic.png)
 
 ## Multiple inheritance
 
