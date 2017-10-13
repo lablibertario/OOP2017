@@ -497,7 +497,7 @@ If ``@Override`` is used, the compiler will signal an error. ``@Override`` is op
 
 **toString() revisited**
 
-We've previously talked about ``toString()`` [here](https://github.com/barcaxi/oop/blob/master/notes/ArraysAndArraylists.md#tostring-method). We can talk some more about it now since we understand the concept of inheritance.
+We've previously talked about ``toString()`` [here](./ArraysAndArraylists.md#tostring-method). We can talk some more about it now since we understand the concept of inheritance.
 
 ``toString()`` is an example of a very commonly overridden method in Java.  In fact, all Java classes should override it.  It is a method in the Java base class ``Object``.  See [Object](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html) in the Java Documentation.
 
