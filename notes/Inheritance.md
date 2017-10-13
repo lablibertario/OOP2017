@@ -539,7 +539,7 @@ In general, inheritance is for specialisation of a class and composition is for 
 
 To do.
 
-[image](../images/accessPrivatePublic.png)
+![alt text](../images/accessPrivatePublic.png "Access Modifiers")
 
 ## Multiple inheritance
 
