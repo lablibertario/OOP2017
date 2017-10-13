@@ -14,7 +14,7 @@ A class called ``Circle`` is designed as shown above. It contains:
 -	three public methods: ``display()``, ``getRadius()`` and ``getArea()``
 
 
-1.	Open and run the program [tut05_01](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut05_01/tut05_01.zip?raw=true).  Make sure you understand how this is working.
+1.	Open and run the program [tut05_01](../code/tutorials/tut05_01/tut05_01.zip?raw=true).  Make sure you understand how this is working.
 
 2.	Modify the class ``Circle`` to include a second constructor for constructing a ``Circle`` instance with arguments for ``x``, ``y`` and ``radius``:
 
@@ -90,7 +90,7 @@ A class called ``Circle`` is designed as shown above. It contains:
 
 In this exercise a ``Cat`` and ``Dog`` class are implemented as subclasses of an ``Animal`` class as shown above.
 
-1.	Open and run the program [tut05_02](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut05_02/tut05_02.zip?raw=true).  
+1.	Open and run the program [tut05_02](../code/tutorials/tut05_02/tut05_02.zip?raw=true).  
 
 2.	Examine the output in the console windown and take time to trace each method called for the ``cat`` and ``dog`` objects.  Make sure you understand this code.
 
@@ -107,7 +107,7 @@ A subclass can be expanded to include additional functions and properties beyond
 
 In this part a ``Circle`` and ``Square`` class are implemented as subclasses of a ``Shape`` class.
 
-1.	Open and run the program [tut05_03](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut05_03/tut05_03.zip?raw=true).  Examine and understand the code.
+1.	Open and run the program [tut05_03](../code/tutorials/tut05_03/tut05_03.zip?raw=true).  Examine and understand the code.
 
 2.	Let's have the ``Circle`` class inherit variables and methods from the ``Shape`` class.  Update the ``Circle`` class code so it extends from ``Shape``:
 
@@ -200,7 +200,7 @@ In this part we'll create a program that can record and create a simple GAA scor
 
 ![alt text](../images/tut05_04.png "GAA Score Image")
 
-1.	Open and run the program [tut05_04](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut05_04/tut05_04.zip?raw=true).  Examine the code.
+1.	Open and run the program [tut05_04](../code/tutorials/tut05_04/tut05_04.zip?raw=true).  Examine the code.
 
 2.	The program implements a simple class hierarchy as shown in this class diagram:
 
