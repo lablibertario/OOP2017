@@ -267,9 +267,7 @@ Given the ``BankAccount`` class and skeleton code for the ``CheckingAccount`` cl
 
 
 
-## Part 6 - Additional Exercise Simple Game
-
-# Simple Game
+## Part 6 - Additional Exercise - Simple Game
 
 Now we’ll have a look at a different scenario. You are presented with 5 classes - ``Part5Game``, ``World``, ``Player``, ``Enemy`` and ``Location``.
 
