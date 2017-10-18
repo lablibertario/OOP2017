@@ -248,8 +248,7 @@ In this part we'll create a program that can record and create a simple GAA scor
 
 Download the Processing project for this task from [here](../code/tutorials/Accounts.zip?raw=true).
 
-Given the BankAccount class and skeleton code for the CheckingAccount
-class in Appendix E, answer the following:
+Given the ``BankAccount`` class and skeleton code for the ``CheckingAccount`` class answer the following:
 
 1.	Shadowing of instance fields is a common mistake for programmers who are new to inheritance. 
 
