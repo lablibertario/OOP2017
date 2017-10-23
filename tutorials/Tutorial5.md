@@ -14,7 +14,7 @@ A class called ``Circle`` is designed as shown above. It contains:
 -	three public methods: ``display()``, ``getRadius()`` and ``getArea()``
 
 
-1.	Open and run the program [tut05_01](../code/tutorials/tut05_01/tut05_01.zip?raw=true).  Make sure you understand how this is working.
+1.	Open and run the program [tut05_01](../code/tutorials/XandO.zip?raw=true).  Make sure you understand how this is working.
 
 2.	Modify the class ``Circle`` to include a second constructor for constructing a ``Circle`` instance with arguments for ``x``, ``y`` and ``radius``:
 
