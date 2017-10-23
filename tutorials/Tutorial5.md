@@ -327,4 +327,75 @@ I’ve removed some functionality from the completed game. Therefore, when you r
 
 
 
+## Part 7 - Additional Exercise - X and O Game
+
+Let's attempt to write another simple classic game -  X an O's (aka noughts and crosses, tic-tac-toe) 
+
+You'll see a number of classes to implement this - ``Game``, ``Board``, ``Player``, ``Human`` and ``Computer``.
+
+The ``XandO`` class controls the game.
+
+The ``Game`` class will create a board (grid), two players (a human player and a computer player) and handle moves made by both players.
+
+The ``Board`` class is a representation of the properties and behaviour needed for a board.  The board data is stored in a 2D array ``board``.  It has methods for clearing the board, displaying the board, getting values at positions in the board, checking lines for winning sequences, and checking when the board is full.
+
+
+The ``Player`` class represents each player – it has a player number and records the move made by each player.  A move is represented as an array of two values.  For example, the top-left corner of the board is represented by values {0,0} and the middle position would be {1,1}.  And so on.
+
+
+The ``Human`` and ``Computer`` classes are sub-classes of ``Player``.
+
+You will be required to implement most of the functionality of these classes.
+
+Below is the basic board with moves at a certain point in the game:
+
+![alt text](../images/XandO1.png "X and O")
+
+
+**Tasks**
+
+I’ve removed some functionality from the completed game. Therefore, when you run it you'll not see the full game working.
+
+> Follow these instructions very carefully.
+
+
+1.	Open the code [XandO](https://github.com/barcaxi/oop2017/blob/master/code/tutorials/XandO.zip?raw=true). and examine the code carefully.
+
+2.	In the ``Player`` constructor:
+
+	-	create an empty ``move`` array for 2 ``int`` values
+	-	assign the ``player`` value to the class variable ``player``
+
+3.	In the ``Player`` method ``setMove()`` assign the ``x`` and ``y`` into the ``move`` array
+
+4.	In the ``Player`` method ``getMove()`` return the ``move`` array.
+
+5.	Skip
+
+6.	In ``Human``:
+
+	-	inherit/extend from the ``Player`` class
+	-	in the constructor use the ``super()`` method call to pass the ``player`` value to the parent constructor
+
+7.	In ``Computer``:
+
+	-	inherit/extend from the ``Player`` class
+	-	in the constructor use the ``super()`` method call to pass the ``player`` value to the parent constructor
+
+8.	In ``Board``:
+
+	-	(a) in the constructor create an empty 2D ``board`` array
+	-	(b) in ``clearBoard()`` initialise each value to 0
+	-	(c) in ``displayBoard()`` using images given display a graphical representation of the board
+	-	(d) complete the missing code in ``checkColumns()`` to check both player values in vertical/column positions (see ``checkRows()``)
+	-	(e) in ``fullBoard()`` check if all positions are unavailabe.  If yes return true, else return false
+
+9.	In ``Game``:
+
+	-	(a)	Declare three ``private`` class variables ``board``, ``player1`` and ``player2`` using class types ``Board``, ``Player`` and ``Player`` respectively.
+	-	(b) in the constructor create an instance of the ``Board`` class.
+
+10.	In the main project tab ``XandO`` give the window the correct width and height to hold the images.
+
+	Run your code now.  It should work if you've done everything right.
 
