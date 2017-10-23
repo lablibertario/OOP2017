@@ -333,9 +333,7 @@ Let's attempt to write another simple classic game -  X an O's (aka noughts and 
 
 You'll see a number of classes to implement this - ``Game``, ``Board``, ``Player``, ``Human`` and ``Computer``.
 
-The ``XandO`` class controls the game.
-
-The ``Game`` class will create a board (grid), two players (a human player and a computer player) and handle moves made by both players.
+The ``Game`` class controls the game.  The ``Game`` class will create a board (grid), two players (a human player and a computer player) and handle moves made by both players.
 
 The ``Board`` class is a representation of the properties and behaviour needed for a board.  The board data is stored in a 2D array ``board``.  It has methods for clearing the board, displaying the board, getting values at positions in the board, checking lines for winning sequences, and checking when the board is full.
 
