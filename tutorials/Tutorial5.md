@@ -397,3 +397,5 @@ I’ve removed some functionality from the completed game. Therefore, when you r
 
 	Run your code now.  It should work if you've done everything right.
 
+
+I think that's enough for one Tutorial!
