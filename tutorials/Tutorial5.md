@@ -343,7 +343,7 @@ The ``Player`` class represents each player – it has a player number and recor
 
 The ``Human`` and ``Computer`` classes are sub-classes of ``Player``.
 
-You will be required to implement most of the functionality of these classes.
+You will be required to implement some of the functionality of these classes.
 
 Below is the basic board with moves at a certain point in the game:
 
