@@ -26,3 +26,4 @@ A repository for module *Object Orient Programming* Semester 3.
 
 Assessment consists of Continuous Assessment (60%) and an Examination (40%).
 
+[Examination](./notes/Examinations.md)
