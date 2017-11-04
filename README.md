@@ -9,7 +9,7 @@ A repository for module *Object Orient Programming* Semester 3.
 - [Java Exceptions & Exception Handling](./notes/Exceptions.md)
 - [Java Composition](./notes/Composition.md)
 - [Java Inheritance](./notes/Inheritance.md)
-
+- [Polymorphism](./notes/Polymorphism.md)
 ## Lectures
 - Processing
 
@@ -20,6 +20,7 @@ A repository for module *Object Orient Programming* Semester 3.
 - [Tutorial 3](./tutorials/Tutorial3.md)
 - [Tutorial 4](./tutorials/Tutorial4.md)
 - [Tutorial 5](./tutorials/Tutorial5.md)
+- [Tutorial 6](./tutorials/Tutorial6.md)
 
 ## Assessment
 
