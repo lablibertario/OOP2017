@@ -10,6 +10,9 @@ A repository for module *Object Orient Programming* Semester 3.
 - [Java Composition](./notes/Composition.md)
 - [Java Inheritance](./notes/Inheritance.md)
 - [Polymorphism](./notes/Polymorphism.md)
+- [Abstract Classes](./notes/AbstractClasses.md)
+
+
 ## Lectures
 - Processing
 
