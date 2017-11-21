@@ -23,7 +23,7 @@ Topics:
 
 4.	Many other Java classes implement the ``Comparable`` interface like wrapper classes ``Integer``, ``Double``, ``Character``, etc.  
 
-	Open the program [tut08_03](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_03/tut08_03.zip?raw=true). 
+	Open the program [tut08_03](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_03/tut08_03.zip?raw=true). 
 
 	Create an arraylist of ``Integer`` objects and add the following numbers to the arraylist:
 
