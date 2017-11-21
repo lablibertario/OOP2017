@@ -61,7 +61,7 @@ Let's attempt to use the ``sort()`` method to sort circle objects by their radiu
 
 	![alt text](../images/CircleComparable.png "")
 
-	You should refer to the notes [here](https://github.com/barcaxi/oop/blob/master/notes/Interfaces.md)
+	You should refer to the notes [here](https://github.com/barcaxi/OOP2017/blob/master/notes/Interfaces.md)
 
 
 ## Part 3 - ``Comparable`` Interface for ``Triangle`` Class
