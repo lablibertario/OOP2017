@@ -9,15 +9,15 @@ Topics:
 
 ## Part 1 - ``Comparable`` Interface
 
-> Make sure you've read the notes [here](https://github.com/barcaxi/oop/blob/master/notes/Interfaces.md)
+> Make sure you've read the notes [here](https://github.com/barcaxi/OOP2017/blob/master/notes/Interfaces.md)
 
-1.	Open and run the program [tut08_01](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_01/tut08_01.zip?raw=true). Take a moment to examine all the code and the output.
+1.	Open and run the program [tut08_01](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_01/tut08_01.zip?raw=true). Take a moment to examine all the code and the output.
 
 	The ``String`` class has a ``compareTo()`` method that implements the interface ``Comparator``.  See the documentation [here](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html).  In this code we call it directly to compare strings.
 
 2.	Swap the values of ``s1`` and ``s2`` and rerun the code.  Understand the output. 
 
-3.	Open and run the program [tut08_02](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_02/tut08_02.zip?raw=true). Take a moment to examine all the code and the output.
+3.	Open and run the program [tut08_02](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_02/tut08_02.zip?raw=true). Take a moment to examine all the code and the output.
 
 	The static method ``sort()`` in the ``Collections`` class sorts the strings in our arraylist.  In fact, the ``sort()`` method **depends upon** our arraylist objects implementing the ``Comparable`` interface and implementing the ``compareTo()`` method.  The Java ``String`` class does this for us as we seen earlier.
 
@@ -38,7 +38,7 @@ Topics:
 
 Let's attempt to use the ``sort()`` method to sort circle objects by their radius values.
 
-1.	Open and run the program [tut08_04](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_04/tut08_04.zip?raw=true). 
+1.	Open and run the program [tut08_04](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_04/tut08_04.zip?raw=true). 
 
 2.	Notice the numbers within the circles indicates the sequence the circles are displayed.  They are displayed in the order they are retrieved from the arraylist.
 
@@ -68,7 +68,7 @@ Let's attempt to use the ``sort()`` method to sort circle objects by their radiu
 
 This time sort some triangles by their length values.
 
-1.	Open the program [tut08_05](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_05/tut08_05.zip?raw=true). 
+1.	Open the program [tut08_05](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_05/tut08_05.zip?raw=true). 
 
 2.	Provide the required changes to sort the triangle by length values.
 
@@ -81,7 +81,7 @@ This time sort some triangles by their length values.
 
 Let's revisit a previous cards program and sort cards by value.
 
-1.	Open the program [tut08_06](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_06/tut08_06.zip?raw=true). 
+1.	Open the program [tut08_06](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_06/tut08_06.zip?raw=true). 
 
 2.	Provide the required changes to sort the cards by value.
 
@@ -129,7 +129,7 @@ In playing cards, a *suit* is a category into which the cards of a deck are divi
 Let's try to sort cards by suit not value as you did previously.
 
 
-1.	Open the program [tut08_07](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_07/tut08_07.zip?raw=true). 
+1.	Open the program [tut08_07](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_07/tut08_07.zip?raw=true). 
 
 2.	You will provide the required changes to **sort the cards by suit**.  
 
@@ -153,7 +153,7 @@ Let's try to sort cards by suit not value as you did previously.
 
 ## Part 7 - User-Defined Interface ``Displayable``
 
-In the [notes](https://github.com/barcaxi/oop/blob/master/notes/Interfaces.md#user-defined-interfaces) we talked about using interfaces to define *what an object can do* but not specifying how to do it.  One of the things a shape like ``Square`` does is display itself on the screen.  We could write an interface that will have an object like ``Square`` implement the display action/behaviour.
+In the [notes](https://github.com/barcaxi/OOP2017/blob/master/notes/Interfaces.md#user-defined-interfaces) we talked about using interfaces to define *what an object can do* but not specifying how to do it.  One of the things a shape like ``Square`` does is display itself on the screen.  We could write an interface that will have an object like ``Square`` implement the display action/behaviour.
 
 Let's use an interface called ``Displayable`` that looks like this:
 
@@ -198,7 +198,7 @@ To illustrate one of the purposes of interfaces let's use the ``Shape``, ``Squar
 
 **Processing**
 
-1.	Download the code in [tut08_08Processing](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_08Processing/tut08_08Processing.zip?raw=true). 
+1.	Download the code in [tut08_08Processing](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_08Processing/tut08_08Processing.zip?raw=true). 
 
 2.	Notice how ``Square`` implements ``Displayable`` and overrides the method ``display()``
 
@@ -209,7 +209,7 @@ To illustrate one of the purposes of interfaces let's use the ``Shape``, ``Squar
 
 **jGrasp**
 
-1.	Download the code in [tut08_08jGrasp](https://github.com/barcaxi/oop/blob/master/code/tutorials/tut08_08jGrasp/tut08_08jGrasp.zip?raw=true). 
+1.	Download the code in [tut08_08jGrasp](https://github.com/barcaxi/OOP2017/blob/master/code/tutorials/tut08_08jGrasp/tut08_08jGrasp.zip?raw=true). 
 
 2.	Notice how ``Square`` implements ``Displayable`` and overrides the method ``display()``
 
@@ -232,7 +232,7 @@ To illustrate one of the purposes of interfaces let's use the ``Shape``, ``Squar
 
 ## Part 8 - User-Defined Interface ``Resizable``
 
-Using ``tut08_08Processing`` provide the necessary code to implement the ``Resizable`` interface shown in the [notes](https://github.com/barcaxi/oop/blob/master/notes/Interfaces.md)
+Using ``tut08_08Processing`` provide the necessary code to implement the ``Resizable`` interface shown in the [notes](https://github.com/barcaxi/OOP2017/blob/master/notes/Interfaces.md)
 
 
 
