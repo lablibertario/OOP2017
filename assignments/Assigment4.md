@@ -193,6 +193,8 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	```
 
+1.	In the classes ``Bullet``, ``FlyingSaucer`` and ``SpaceShip`` use the new overloaded constructor in ``SpaceObject`` to initialise the class instance variables.  You'll remove the *shadow instance variables* next.
+
 1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all *shadow instance variables* from these subclasses.  
 
 	This will cause lots of compilation errors in your subclasses now.  Update each of the appropriate subclasses one at a time and fix these errors.  Be careful!
