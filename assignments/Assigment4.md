@@ -36,7 +36,7 @@ You will need to keep a journal that records a brief description of your work on
 
 ## Part 1 - ScreenData, ArrayList, 
 
-Get the project folder ``asteroidsPart1`` [here](https://github.com/barcaxi/oop/blob/master/assignments/a4/asteroidsPart1.zip?raw=true).  You should store your classes and testers in a folder called ``asteroidsPart1``.  
+Get the project folder ``asteroidsPart1`` [here](https://github.com/barcaxi/oop/blob/master/assignments/a4/asteroidsPart1.zip?raw=true). 
 
 **Follow the instructions below precisely**.  Any deviation from this will mean you will lose marks.
 
@@ -50,13 +50,13 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 1.	Examine the ``ScreenData`` class shown above.  It contains:
 
 	-	3 private instance variables - ``score``, ``lives`` and ``level``
-	-	a constructor that initialised those variables
+	-	a constructor that initialises those variables
 	-	8 getter, setter and increment methods 
-	-	a ``toString()`` method that returns - [ScreenData:score=*score*;lives=*lives*;level=*level*]";
+	-	a ``toString()`` method that returns - [ScreenData:score=*score*;lives=*lives*;level=*level*]
 
 	Write the missing code for the getters, setters, incrementers and ``toString()``. 
 
-	Test your solution by adding the following tester code to the ``setup()`` method:
+	Test your solution by adding the following tester code to the project ``setup()`` method:
 
 	```java
 	ScreenData screenData = new ScreenData();
@@ -93,12 +93,19 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 2.	In the game so far there is only one asteroid being displayed.  Modify the ``Game`` class to support upto 5 asteroids by changing the instance variable ``asteroid``  to an arraylist of ``Asteroid``s:
 
 	```java
+	// asteroid = new Asteroid();
 	ArrayList<Asteroid> asteroids;
 
 	```
 
 
-	This modification is going to cause a number of compilation errors.  You will have to fix these errors so your game can handle an arraylist of asteroids.  Use an *enhanced for loop* in your solution for your arraylist.
+	This modification is going to cause a number of compilation errors.  You will have to fix these errors so your game can handle an arraylist of asteroids.  Basically, you'll have to update the code to:
+
+	-	add the asteroids to the arraylist
+	-	display the asteroids in the arraylist
+	-	check for asteroids in the arraylist colliding with a bullet
+
+	Use an *enhanced for loop* in your solution for your arraylist.
 
 	When completed you should have 5 asteroids appearing in the game.
 
