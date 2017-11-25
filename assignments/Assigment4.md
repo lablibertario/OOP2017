@@ -123,7 +123,7 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 1.	When a bullet hits/collides with an asteroid briefly change the background color of the screen to red.
 
 
-
+See video [here](https://media.heanet.ie/page/1fa0eedbe30a856f42924b43960a7169) for an example of how Part 1 should run when done.
 
 
 ## Part 2 – SpaceObject
