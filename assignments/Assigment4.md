@@ -190,7 +190,24 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	```
 
-1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all instances of these variables from these subclasses.  This will cause lots of compilation errors in you subclasses now.  Fix these errors.  Test everything works again when done. 
+1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all instances of these variables from these subclasses.  For example, modify the ``Asteroid`` class like this:
+		
+	```java
+	public class Asteroid ...
+	{
+		//private int x;    
+		//private int y;
+		//private int radius;
+		//private float speed;
+
+		...
+		...
+
+	```
+
+	This will cause lots of compilation errors in your subclasses now.  Update each of the appropriate subclass and fix these errors.   
+
+	When finished there should be no shadow instance variables in any subclass of ``SpaceObject``.  Test the game still works.
 
 
 
