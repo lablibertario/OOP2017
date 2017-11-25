@@ -118,4 +118,5 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 
 3.	When a bullet hits/collides with a asteroid briefly change the background color of the screen to red.
 
-4.	
+4.	You'll have noticed that you if you miss when firing a bullet you cannot fire another bullet.  Find the label *Part 1 (reload)* in the ``Game`` class and reload the spaceship bullet when a missed bullet goes beyond the top of the screen.
+
