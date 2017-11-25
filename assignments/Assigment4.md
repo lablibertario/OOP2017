@@ -3,9 +3,12 @@
 ## Contents
 
 
-- [Part 1](#part-1) [%]
-
-
+- [Part 1](#part-1--screendata-arraylist-reload) [%]
+- [Part 2](#part-2--spaceobject-abstract-class) [%]
+- [Part 3](#part-3--outofscreenexception) [%]
+- [Part 4](#part-4--shootable-flyingsaucer-hit-by-bullet) [%]
+- [Part 5](#part-5--screen-score) [%]
+- [Part 6](#part-6--sound) [%]
 
 ## Submission Details
 
