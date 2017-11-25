@@ -34,7 +34,7 @@ Some of the classes you create in one part may be copied into another (and perha
 You will need to keep a journal that records a brief description of your work on the assignment.  Please complete this log on a daily basis.  Your supervising lecturer will examine it from time to time and marks will be awarded for completing it correctly.
 
 
-## Part 1 - ScreenData, ArrayList, 
+## Part 1 - ScreenData, ArrayList, Reload
 
 Get the project folder ``asteroidsPart1`` [here](https://github.com/barcaxi/oop/blob/master/assignments/a4/asteroidsPart1.zip?raw=true). 
 
@@ -90,7 +90,7 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 	Make sure it prints this using the tester code provided.  Attention to detail is important.  Marks are at stake.
 
 
-2.	In the game so far there is only one asteroid being displayed.  Modify the ``Game`` class to support upto 5 asteroids by changing the instance variable ``asteroid``  to an arraylist of ``Asteroid``s:
+1.	In the game so far there is only one asteroid being displayed.  Modify the ``Game`` class to support upto 5 asteroids by changing the instance variable ``asteroid``  to an arraylist of ``Asteroid``s:
 
 	```java
 	// asteroid = new Asteroid();
@@ -116,7 +116,8 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 
 	```
 
-3.	When a bullet hits/collides with a asteroid briefly change the background color of the screen to red.
 
-4.	You'll have noticed that you if you miss when firing a bullet you cannot fire another bullet.  Find the label *Part 1 (reload)* in the ``Game`` class and at this location in the code reload the spaceship bullet only when a missed bullet goes beyond the top of the screen. 
+1.	You'll have noticed that you if you miss when firing a bullet you cannot fire another bullet.  Find the label *Part 1 (reload)* in the ``Game`` class and at this location in the code reload the spaceship bullet only when a missed bullet goes beyond the top of the screen. 
 
+
+1.	When a bullet hits/collides with an asteroid briefly change the background color of the screen to red.
