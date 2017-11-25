@@ -109,7 +109,7 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 
 	When completed you should have 5 asteroids appearing in the game.
 
-	When a bullet collides with a asteroid remove the asteroid from the arraylist using code like this:
+	Hint: When a bullet collides with a asteroid remove the asteroid from the arraylist using code like this:
 
 	```java
 	asteroids.remove(a);
