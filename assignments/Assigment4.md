@@ -34,7 +34,7 @@ Some of the classes you create in one part may be copied into another (and perha
 You will need to keep a journal that records a brief description of your work on the assignment.  Please complete this log on a daily basis.  Your supervising lecturer will examine it from time to time and marks will be awarded for completing it correctly.
 
 
-## Part 1 - ScreenData, ArrayList, Reload
+## Part 1 – ScreenData, ArrayList, Reload
 
 Get the project folder ``asteroidsPart1`` [here](https://github.com/barcaxi/oop/blob/master/assignments/a4/asteroidsPart1.zip?raw=true). 
 
@@ -121,3 +121,10 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 
 
 1.	When a bullet hits/collides with an asteroid briefly change the background color of the screen to red.
+
+
+
+
+
+## Part 2 – SpaceObject
+
