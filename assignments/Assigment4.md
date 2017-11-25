@@ -297,7 +297,7 @@ You need to update and display a score whilst playing the game.  Scores are awar
 
 1.	Modify the code in ``Game`` to update the score for hitting a flying saucer and missing.
 
-See video [here]() for an example of how Part 5 should run when done.
+See video [here](https://media.heanet.ie/page/43022cf4d4108a353d5dd12adb8a749b) for an example of how Part 5 should run when done.
 
 
 ## Part 6 – Sound
