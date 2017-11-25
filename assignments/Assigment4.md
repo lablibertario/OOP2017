@@ -140,7 +140,7 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	-	4 private instance variables - ``x``, ``y``,``radius`` and ``speed``
 	-	a default constructor that initialises those variables to 0 (zero)
-	-	a overloaded constructor that initialises those variables with specific values passed as arguments
+	-	an overloaded constructor that initialises those variables with specific values passed as arguments
 	-	10 getter, setter and incrementer methods 
 	-	a ``toString()`` method that returns - [SpaceObject:x=*x*;y=*y*;radius=*radius*;speed=*speed*]
 
@@ -190,20 +190,7 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	```
 
-1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all instances of these variables from these subclasses.  For example, modify the ``Asteroid`` class like this:
-		
-	```java
-	public class Asteroid ...
-	{
-		//private int x;    
-		//private int y;
-		//private int radius;
-		//private float speed;
-
-		...
-		...
-
-	```
+1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all *shadow variable instances* from these subclasses.  
 
 	This will cause lots of compilation errors in your subclasses now.  Update each of the appropriate subclasses one at a time and fix these errors.  Be careful!
 
