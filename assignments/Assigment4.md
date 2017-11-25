@@ -116,3 +116,6 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 
 	```
 
+3.	When a bullet hits/collides with a asteroid briefly change the background color of the screen to red.
+
+4.	
