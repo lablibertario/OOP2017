@@ -230,5 +230,5 @@ Make a copy of your ``asteroidsPart2`` project folder, paste and rename it ``ast
 	You should prevent the spaceship from moving outside the screeen boundary.
 
 
-See video [here]() for an example of how Part 3 should run when done.
+See video [here](https://media.heanet.ie/page/5da93dbc65408053f89682ab0be1e6e4) for an example of how Part 3 should run when done.
 
