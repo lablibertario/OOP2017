@@ -234,7 +234,7 @@ See video [here](https://media.heanet.ie/page/5da93dbc65408053f89682ab0be1e6e4) 
 
 
 
-## Part 4 – 
+## Part 4 – Shootable, FlyingSaucer Hit
 
 Only begin this part when you have completed or attempted all you can of *Part 3*.  
 
@@ -246,7 +246,7 @@ Make a copy of your ``asteroidsPart3`` project folder, paste and rename it ``ast
 
 	The ``hitBy()`` method implementation is very similar to ``intersects()``.
 
-	You will need to modify the code in ``Game`` that uses the ``intersects()`` method and now use the ``hitBy()`` method instead.
+	You will need to modify the code in ``Game`` to use the new ``hitBy()`` method instead of the ``intersects()`` method.  You must stop using ``intersects()``.
 
 	Test is works for bullets hitting asteroids.
 
