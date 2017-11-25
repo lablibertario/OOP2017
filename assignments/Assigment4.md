@@ -126,7 +126,7 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 See video [here](https://media.heanet.ie/page/1fa0eedbe30a856f42924b43960a7169) for an example of how Part 1 should run when done.
 
 
-## Part 2 – SpaceObject
+## Part 2 – SpaceObject abstract class
 
 Only begin this part when you have completed or attempted all you can of *Part 1*.  
 
@@ -205,9 +205,20 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	```
 
-	This will cause lots of compilation errors in your subclasses now.  Update each of the appropriate subclass and fix these errors.   
+	This will cause lots of compilation errors in your subclasses now.  Update each of the appropriate subclasses one at a time and fix these errors.  Be careful!
 
 	When finished there should be no shadow instance variables in any subclass of ``SpaceObject``.  Test the game still works.
 
 
+1.	You may have noticed that only one flying saucer appears during each game.  When one appears it actually continues to be displayed, but off screen to the right.  Find the code where the flying saucer is displayed in ``Game`` and remove any flying saucer that is no longer visible.  Add the method below to ``FlyingSaucer`` to help in your solution:
+
+	```java
+	public boolean visible()
+	{
+		// ...
+	}
+
+	```
+
+	This method needs to return true when the flying saucer is visible and false when not.  Only one flying saucer should appear at a time.
 
