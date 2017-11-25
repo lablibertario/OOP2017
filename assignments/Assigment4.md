@@ -132,7 +132,7 @@ Only begin this part when you have completed or attempted all you can of *Part 1
 
 Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``asteroidsPart2``.  Use ``asteroidsPart2`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart2``.
 
-1.	Create a new abstract class called ``SpaceObject`` as shown in this class diagram:
+1.	Create a new class called ``SpaceObject`` as shown in this class diagram:
 
 	![alt text](../images/asteroidsPart2.png "Part 2 Class Diagram")
 
