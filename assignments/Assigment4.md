@@ -193,13 +193,14 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	```
 
-1.	In the classes ``Bullet``, ``FlyingSaucer`` and ``SpaceShip`` use the new overloaded constructor in ``SpaceObject`` to initialise the class instance variables.  You'll remove the *shadow instance variables* next.
-
 1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all *shadow instance variables* from these subclasses.  
 
 	This will cause lots of compilation errors in your subclasses now.  Update each of the appropriate subclasses one at a time and fix these errors.  Be careful!
 
 	When finished there should be no shadow instance variables in any subclass of ``SpaceObject``.  Test the game still works.
+
+
+1.	In the classes ``Bullet``, ``FlyingSaucer`` and ``SpaceShip`` use the new overloaded constructor in ``SpaceObject`` to initialise the class instance variables.
 
 
 1.	You may have noticed that only one flying saucer appears during each game.  When one appears it actually continues to be displayed, but off screen to the right.  Find the code where the flying saucer is displayed in ``Game`` and remove any flying saucer that is no longer visible.  Add the method below to ``FlyingSaucer`` to help in your solution:
