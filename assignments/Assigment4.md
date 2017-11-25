@@ -268,7 +268,7 @@ Only begin this part when you have completed or attempted all you can of *Part 4
 
 Make a copy of your ``asteroidsPart4`` project folder, paste and rename it ``asteroidsPart5``.  Use ``asteroidsPart5`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart5``.
 
-You need to implement and display a running score whilst playing the game.  Scores are awarded for the following events:
+You need to update and display a score whilst playing the game.  Scores are awarded for the following events:
 
 | Event                    | Score |
 | ------------------------ | ----- |
@@ -281,12 +281,30 @@ You need to implement and display a running score whilst playing the game.  Scor
 | Miss                     | -100  |
 
 
+1.	Modify the ``Asteroid`` class ``getScoreValue()`` method to return the score for hitting that asteroid:
+
+	```java
+	public int getScoreValue()
+	{
+	  // return score for hitting this asteroid 
+	}
+
+	```
+
+1.	Use this method in ``Game`` with the ``ScreenData`` class for updating the score when an asteroid is hit.
+
+1.	Modify the ``ScreenData`` class ``display()`` method to display the current score, level and lives as shown in the video below.
+
+1.	Modify the code in ``Game`` to update the score for hitting a flying saucer and missing.
+
+See video [here]() for an example of how Part 5 should run when done.
+
 
 ## Part 6 – Sound
 
 Only begin this part when you have completed or attempted all you can of *Part 5*.  
 
-Make a copy of your ``asteroidsPart3`` project folder, paste and rename it ``asteroidsPart6``.  Use ``asteroidsPart6`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart6``.
+Make a copy of your ``asteroidsPart5`` project folder, paste and rename it ``asteroidsPart6``.  Use ``asteroidsPart6`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart6``.
 
 1.	Add sounds to the game using the sounds [here]().  You'll need to use sounds for background music, firing and explosions.
 
