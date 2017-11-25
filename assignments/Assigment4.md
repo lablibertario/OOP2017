@@ -51,7 +51,7 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 
 	-	3 private instance variables - ``score``, ``lives`` and ``level``
 	-	a constructor that initialises those variables
-	-	8 getter, setter and increment methods 
+	-	8 getter, setter and incrementer methods 
 	-	a ``toString()`` method that returns - [ScreenData:score=*score*;lives=*lives*;level=*level*]
 
 	Write the missing code for the getters, setters, incrementers and ``toString()``. 
@@ -127,4 +127,70 @@ See video [here](https://media.heanet.ie/page/1fa0eedbe30a856f42924b43960a7169) 
 
 
 ## Part 2 – SpaceObject
+
+Only begin this part when you have completed or attempted all you can of *Part 1*.  
+
+Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``asteroidsPart2``.  Use ``asteroidsPart2`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart2``.
+
+1.	Create a new abstract class called ``SpaceObject`` as shown in this class diagram:
+
+	![alt text](../images/asteroidsPart2.png "Part 2 Class Diagram")
+
+	It contains:
+
+	-	4 private instance variables - ``x``, ``y``,``radius`` and ``speed``
+	-	a default constructor that initialises those variables to 0 (zero)
+	-	a overloaded constructor that initialises those variables with specific values passed as arguments
+	-	10 getter, setter and incrementer methods 
+	-	a ``toString()`` method that returns - [SpaceObject:x=*x*;y=*y*;radius=*radius*;speed=*speed*]
+
+	Write the missing code for the getters, setters, incrementers and ``toString()``. 
+
+	Test your solution by adding the following tester code to the project ``setup()`` method:
+
+	```java
+	SpaceObject spaceObject = new SpaceObject();
+	println(spaceObject);
+	spaceObject.setX(100);
+	spaceObject.incX();
+	println("x="+spaceObject.getX());
+	spaceObject.setY(200);
+	spaceObject.incY();
+	println("y="+spaceObject.getY());
+	spaceObject.setRadius(20);
+	println("radius="+spaceObject.getRadius());
+	spaceObject.setSpeed(25);
+	println("speed="+spaceObject.getSpeed());
+	println(spaceObject);
+
+	```
+
+
+	It should print:
+
+	```java
+	[SpaceObject:x=0;y=0;radius=0;speed=0.0]
+	x=101
+	y=201
+	radius=20
+	speed=25.0
+	[SpaceObject:x=101;y=201;radius=20;speed=25.0]
+
+	```
+
+	Make sure it prints this using the tester code provided.
+
+
+1.	Make the ``SpaceObject`` class ``abstract``.  Some code in the project ``setup()`` method will need to be removed now.
+
+1.	Add the abstract method ``display()`` to ``SpaceObject``:
+
+	```java
+	public abstract void display();
+
+	```
+
+1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all instances of these variables from these subclasses.  This will cause lots of compilation errors in you subclasses now.  Fix these errors.  Test everything works again when done. 
+
+
 
