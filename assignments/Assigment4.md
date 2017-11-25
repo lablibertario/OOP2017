@@ -234,7 +234,7 @@ See video [here](https://media.heanet.ie/page/5da93dbc65408053f89682ab0be1e6e4) 
 
 
 
-## Part 4 – Shootable, FlyingSaucer Hit
+## Part 4 – Shootable, FlyingSaucer Hit By Bullet
 
 Only begin this part when you have completed or attempted all you can of *Part 3*.  
 
@@ -244,16 +244,50 @@ Make a copy of your ``asteroidsPart3`` project folder, paste and rename it ``ast
 
 1.  Provide the appropriate implementation of ``Shootable`` in the ``Asteroid`` class.
 
-	The ``hitBy()`` method implementation is very similar to ``intersects()``.
+	The ``hitBy()`` method implementation is very similar to ``intersects()``.  Hint: examine ``intersects()`` carefully when writing ``hitBy()``.
 
 	You will need to modify the code in ``Game`` to use the new ``hitBy()`` method instead of the ``intersects()`` method.  You must stop using ``intersects()``.
 
 	Test is works for bullets hitting asteroids.
 
 
-1.	Also, provide the appropriate implementation of ``Shootable`` in the ``FlyingSaucer`` too.  Add the appropriate code to ``Game`` to check for a bullet hitting a flying saucer.  If a flying saucer is hit by a bullet:
+1.	Also, provide the appropriate implementation of ``Shootable`` in the ``FlyingSaucer`` too.  Hint: examine ``intersects()`` carefully when writing ``hitBy()``.
+	
+	Add the appropriate code to ``Game`` to check for a bullet hitting a flying saucer.  If a flying saucer is hit by a bullet:
 
 	-	briefly change the background colour to green
 	-	remove it
 	-	reload the spaceship bullet
+
+See video [here](https://media.heanet.ie/page/425591400f4d7a9ecff739fd465b0135) for an example of how Part 4 should run when done.
+
+
+## Part 5 – Screen Score, Java Documentation
+
+Only begin this part when you have completed or attempted all you can of *Part 4*.  
+
+Make a copy of your ``asteroidsPart4`` project folder, paste and rename it ``asteroidsPart5``.  Use ``asteroidsPart5`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart5``.
+
+You need to implement and display a running score whilst playing the game.  Scores are awarded for the following events:
+
+| Event                    | Score |
+| ------------------------ | ----- |
+| Hit Asteroid [radius=50] | 100   |
+| Hit Asteroid [radius=40] | 200   |
+| Hit Asteroid [radius=30] | 300   |
+| Hit Asteroid [radius=20] | 400   |
+| Hit Asteroid [radius=10] | 500   |
+| Hit Flying Saucer        | 1000  |
+| Miss                     | -100  |
+
+
+
+## Part 6 – Sound
+
+Only begin this part when you have completed or attempted all you can of *Part 5*.  
+
+Make a copy of your ``asteroidsPart3`` project folder, paste and rename it ``asteroidsPart6``.  Use ``asteroidsPart6`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart6``.
+
+1.	Add sounds to the game using the sounds [here]().  You'll need to use sounds for background music, firing and explosions.
+
 
