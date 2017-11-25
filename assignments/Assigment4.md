@@ -213,7 +213,7 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 See video [here](https://media.heanet.ie/page/e6f113ffb11213e2fb6b5d07b862a209) for an example of how Part 2 should run when done.
 
-## Part 3 – OutOfScreenException exception
+## Part 3 – OutOfScreenException
 
 Only begin this part when you have completed or attempted all you can of *Part 2*.  
 
@@ -227,8 +227,33 @@ Make a copy of your ``asteroidsPart2`` project folder, paste and rename it ``ast
 
 	Modify the code in ``Game`` to catch the exception and print the message returned.
 
-	You should prevent the spaceship from moving outside the screeen boundary.
+	You should prevent the spaceship from moving outside the screen boundary.
 
 
 See video [here](https://media.heanet.ie/page/5da93dbc65408053f89682ab0be1e6e4) for an example of how Part 3 should run when done.
+
+
+
+## Part 4 – 
+
+Only begin this part when you have completed or attempted all you can of *Part 3*.  
+
+Make a copy of your ``asteroidsPart3`` project folder, paste and rename it ``asteroidsPart4``.  Use ``asteroidsPart4`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart4``.
+
+1.	Create an interface called ``Shootable``.  See the Java Doc file [here](http://noucamp.org/oop/2017/a4/doc/Shootable.html)
+
+1.  Provide the appropriate implementation of ``Shootable`` in the ``Asteroid`` class.
+
+	The ``hitBy()`` method implementation is very similar to ``intersects()``.
+
+	You will need to modify the code in ``Game`` that uses the ``intersects()`` method and now use the ``hitBy()`` method instead.
+
+	Test is works for bullets hitting asteroids.
+
+
+1.	Also, provide the appropriate implementation of ``Shootable`` in the ``FlyingSaucer`` too.  Add the appropriate code to ``Game`` to check for a bullet hitting a flying saucer.  If a flying saucer is hit by a bullet:
+
+	-	briefly change the background colour to green
+	-	remove it
+	-	reload the spaceship bullet
 
