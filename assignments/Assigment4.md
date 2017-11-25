@@ -262,7 +262,7 @@ Make a copy of your ``asteroidsPart3`` project folder, paste and rename it ``ast
 See video [here](https://media.heanet.ie/page/425591400f4d7a9ecff739fd465b0135) for an example of how Part 4 should run when done.
 
 
-## Part 5 – Screen Score, Java Documentation
+## Part 5 – Screen Score
 
 Only begin this part when you have completed or attempted all you can of *Part 4*.  
 
