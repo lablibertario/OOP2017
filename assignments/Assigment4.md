@@ -202,8 +202,8 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 	```java
 	public boolean visible()
 	{
-		// Note: multiply x by speed to get correct x value
-		// ...
+	  // Note: multiply x by speed to get correct x value
+	  // ...
 	}
 
 	```
@@ -213,10 +213,22 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 See video [here](https://media.heanet.ie/page/e6f113ffb11213e2fb6b5d07b862a209) for an example of how Part 2 should run when done.
 
-## Part 3 – 
+## Part 3 – OutOfScreenException exception
 
 Only begin this part when you have completed or attempted all you can of *Part 2*.  
 
 Make a copy of your ``asteroidsPart2`` project folder, paste and rename it ``asteroidsPart3``.  Use ``asteroidsPart3`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart3``.
 
-1.
+1.	Create a class called ``OutOfScreenException``.  See the Java Doc file [here](http://noucamp.org/oop/2017/a4/doc/OutOfScreenException.html).  **You MUST create the class exactly as required in the Java documentation given**. 
+
+1.	You may have noticed that the spaceship can be moved outside the bounds of the screen.  
+
+	Modify the code in the ``SpaceShip`` class method ``incX()`` to throw a ``OutOfScreenException`` **before not when** the spaceship attempts to leave the bounds of the game screen.  
+
+	Modify the code in ``Game`` to catch the exception and print the message returned.
+
+	You should prevent the spaceship from moving outside the screeen boundary.
+
+
+See video [here]() for an example of how Part 3 should run when done.
+
