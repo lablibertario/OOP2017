@@ -190,7 +190,7 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	```
 
-1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all *shadow variable instances* from these subclasses.  
+1.	``SpaceObject`` provides one class for the instance variables - ``x``, ``y``,``radius`` and ``speed`` and it's various methods.  Have all the classes in the project that use these variables **inherit** them from ``SpaceObject``.  Also, remove all *shadow instance variables* from these subclasses.  
 
 	This will cause lots of compilation errors in your subclasses now.  Update each of the appropriate subclasses one at a time and fix these errors.  Be careful!
 
@@ -202,6 +202,7 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 	```java
 	public boolean visible()
 	{
+		// Note: multiply x by speed to get correct x value
 		// ...
 	}
 
@@ -209,3 +210,13 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 	This method needs to return true when the flying saucer is visible and false when not.  Only one flying saucer should appear at a time.
 
+
+See video [here](https://media.heanet.ie/page/e6f113ffb11213e2fb6b5d07b862a209) for an example of how Part 2 should run when done.
+
+## Part 3 – 
+
+Only begin this part when you have completed or attempted all you can of *Part 2*.  
+
+Make a copy of your ``asteroidsPart2`` project folder, paste and rename it ``asteroidsPart3``.  Use ``asteroidsPart3`` for this part of the assignment.  You will need to rename the tester program for this part to ``asteroidsPart3``.
+
+1.
