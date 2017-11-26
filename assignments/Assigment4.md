@@ -45,7 +45,7 @@ Get the project folder ``asteroidsPart1`` [here](https://github.com/barcaxi/oop/
 
 This class diagram shows the structure of this part of the assignment when completed.
 
-![alt text](../images/asteroidsPart1.png "Part 1 Class Diagram")
+![alt text](images/asteroidsPart1.png "Part 1 Class Diagram")
 
 Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, an *Asteroid* moving down the screen and perhaps a *FlyingSaucer* moving across the top of the screen.  Take time to **examine and understand this code thoroughly**.  
 
@@ -54,7 +54,7 @@ Run the Asteroids game.  You'll see a *SpaceShip* at the bottom of the screen, a
 
 	-	3 private instance variables - ``score``, ``lives`` and ``level``
 	-	a constructor that initialises those variables
-	-	8 getter, setter and incrementer methods 
+	-	9 getter, setter and incrementer methods 
 	-	a ``toString()`` method that returns - [ScreenData:score=*score*;lives=*lives*;level=*level*]
 
 	Write the missing code for the getters, setters, incrementers and ``toString()``. 
@@ -137,7 +137,7 @@ Make a copy of your ``asteroidsPart1`` project folder, paste and rename it ``ast
 
 1.	Create a new class called ``SpaceObject`` as shown in this class diagram:
 
-	![alt text](../images/asteroidsPart2.png "Part 2 Class Diagram")
+	![alt text](images/asteroidsPart2.png "Part 2 Class Diagram")
 
 	It contains:
 
