@@ -39,7 +39,7 @@ You will need to keep a journal that records a brief description of your work on
 
 ## Part 1 – ScreenData, ArrayList, Reload
 
-Get the project folder ``asteroidsPart1`` [here](https://github.com/barcaxi/oop/blob/master/assignments/a4/asteroidsPart1.zip?raw=true). 
+Get the project folder ``asteroidsPart1`` [here](https://github.com/barcaxi/OOP2017/blob/master/assignments/asteroidsPart1.zip?raw=true). 
 
 **Follow the instructions below precisely**.  Any deviation from this will mean you will lose marks.
 
